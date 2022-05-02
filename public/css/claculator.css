@@ -1,0 +1,29 @@
+
+.cal {
+    border: 1px solid #000;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#io {
+    height: 2.3rem;
+    text-align: right;
+    border: 1px solid #333;
+    font-weight: 400;
+    color: #000;
+    font-size: 2rem;
+    margin-bottom: .7rem;
+}
+
+.calBtns {
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .2rem;
+}
+
+.btn {
+    padding: 1rem;
+}
