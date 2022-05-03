@@ -1,0 +1,8 @@
+{
+    "watch": ["src", "public/*", "view"],
+    "ext": "ts, ejs, css",
+    "ignore": ["*.test.ts"],
+    "execMap": {
+        "ts": "ts-node"
+    }
+}
