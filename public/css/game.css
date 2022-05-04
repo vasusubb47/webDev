@@ -1,0 +1,42 @@
+
+.ganeContainer,.sidePannel,.main {
+    border-radius: .5rem;
+    border: 1px solid #000;
+}
+
+.ganeContainer {
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-gap: .5rem;
+}
+
+.sidePannel {
+    padding: 1rem;
+}
+
+.gameList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .1rem;
+}
+
+.gameLink {
+    padding: .4rem;
+}
+
+.game {
+    display: none;
+    height: 50vh;
+}
+
+.activeGame {
+    display: block;
+}
+
+#XO {
+    background-color: aqua;
+}
+
+#Chess {
+    background-color: aquamarine;
+}

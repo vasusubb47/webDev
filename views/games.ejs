@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('headder', {head: {
+        title: "WEB GAMES PROJECTS",
+        css: ["nav", "game"]
+    }} )%>
+</head>
+<body>
+    <%- include('nav', {nav: {
+        Brand: "WEB GAMES"
+    }}) %>
+    <div class="ganeContainer">
+        <div class="sidePannel">
+            <div class="gameList">
+                <button data-game-id="XO">XO</button>
+                <button data-game-id="Chess">Chess</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="game activeGame XO" id="XO">
+                <div class="xoBoard">XO</div>
+            </div>
+            <div class="game chess" id="Chess">
+                <div class="chessBoard">Chess</div>
+            </div>
+        </div>
+    </div>
+    <%- include('footter', {
+        foot: {
+            js: ["game"]
+        }
+    })%>
+</body>
+</html>
